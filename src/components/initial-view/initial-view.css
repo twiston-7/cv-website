@@ -1,0 +1,39 @@
+[data-theme="light"] {
+  --text: #efe5f1;
+}
+
+[data-theme="dark"] {
+  --text: #180e1b;
+}
+
+.side h1 {
+  font-family: "Roboto Light", sans-serif;
+  color: var(--text);
+  font-size: 7vw;
+  margin: 0 32.5vw;
+  width: 80vw;
+}
+
+.side {
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+#left-side {
+  background-color: var(--primary);
+  z-index: 2;
+}
+
+#right-side {
+  background-color: var(--secondary);
+}
+
+.fancy {
+  font-family: "Ananda Black", sans-serif;
+}
